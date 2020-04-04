@@ -32,5 +32,17 @@ Check Status
 git status
 ```
 
+Commit to git  master 
+
+```text
+git commit -m "my Comment" filename
+```
+
+Push commit to repo
+
+```text
+git push -u origin master
+```
+
 
 
