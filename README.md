@@ -1,1 +1,2 @@
-# mygit
+# Initial page
+
