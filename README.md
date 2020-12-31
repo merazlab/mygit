@@ -74,7 +74,30 @@ Write ignore file name in **.gitignore**
 
     git add filename    
 
+    git add filename #add specific file
+        or
     git add -A  #add all file 
+        or
+    git add .   #add all file
+
+
+## Our First commit
+
+    git commit -m "..commit meaasage.."
+
+    git status  #for checking status
+
+## See Graph of all commit or branch
+
+    git log --all --decorate --oneline --graph
+
+    #create alias or shortcut
+    alias graph="git log --all --decorate --oneline --graph"
+
+    graph   #draw graph
+
+
+    
 
 ## Remove file from staging area
 
@@ -83,11 +106,6 @@ Write ignore file name in **.gitignore**
 
     git status #check status
 
-## Our First commit
-
-    git commit -m "..initial comment.."
-
-    git status  #for checking status
 
 For viewing commit details
 
