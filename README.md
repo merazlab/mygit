@@ -10,6 +10,8 @@ What is **git** or **github** ?
 
 https://git-scm.com/
 
+https://training.github.com/downloads/github-git-cheat-sheet.pdf
+
 ## Check version
 
     git --version
