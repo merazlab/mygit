@@ -96,9 +96,14 @@ Write ignore file name in **.gitignore**
 
     graph   #draw graph
 
+# Remove changes
 
+## Remove Current chaanges
+
+    git checkout -- file_name
+        or
+    git checkout -- .   #For all File
     
-
 ## Remove file from staging area
 
     git reset filename
