@@ -42,7 +42,10 @@ $ mkdir .ssh && touch .ssh/authorized_keys
 $ chmod 700 .ssh/ && chmod 600 .ssh/authorized_keys
 $ cat id_name.pub >> .ssh/authorized_keys
 ```
+## In lower git version
+you musty add below line in in your project directory, then push pull not asking id  and password
 
+`git config credential.helper store `
 
 ---
 ## Additional setting for hide ip in host side
